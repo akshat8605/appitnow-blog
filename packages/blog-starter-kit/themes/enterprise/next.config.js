@@ -61,6 +61,7 @@ const getRedirectionRules = async () => {
 const config = {
 	transpilePackages: ['@starter-kit/utils'],
 	basePath: getBasePath(),
+  assetPrefix: 'https://appitnow-blog.vercel.app',
 	experimental: {
 		scrollRestoration: true,
 	},
