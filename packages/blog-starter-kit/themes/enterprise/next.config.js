@@ -63,7 +63,7 @@ const config = {
 	basePath: getBasePath(),
   assetPrefix: 'https://appitnow-blog.vercel.app',
   module.exports = {
-  basePath: '/docs',
+  basePath: '/blog',
 }
   trailingSlash: true,
 	experimental: {
