@@ -62,10 +62,11 @@ const config = {
 	transpilePackages: ['@starter-kit/utils'],
 	basePath: getBasePath(),
   assetPrefix: 'https://appitnow-blog.vercel.app',
-  module.exports = {
+
   basePath: '/blog',
-}
-  trailingSlash: true,
+    trailingSlash: true,
+
+  
 	experimental: {
 		scrollRestoration: true,
 	},
