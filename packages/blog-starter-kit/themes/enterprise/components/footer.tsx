@@ -32,23 +32,23 @@ export const Footer = () => {
 							</p>
 							<ul className="flex flex-col gap-1 text-slate-700 dark:text-neutral-300">
 								<li>
-									<a href="#" className="hover:underline">
+									<a href="https://www.appitnow.in/contact-us" className="hover:underline">
 										Contact us
 									</a>
 								</li>
 								<li>
-									<a href="#" className="hover:underline">
-										Book a demo
+									<a href="https://calendly.com/appitnow" className="hover:underline">
+										Book a meeting
 									</a>
 								</li>
 								<li>
-									<a href="#" className="hover:underline">
-										Newsletter
+									<a href="mailto:contact@appitnow.in" className="hover:underline">
+									Email: contact@appitnow.in
 									</a>
 								</li>
 								<li>
-									<a href="#" className="hover:underline">
-										Slack
+									<a href="tel:+918600025782" className="hover:underline">
+										+91 8600025782
 									</a>
 								</li>
 							</ul>
@@ -57,23 +57,23 @@ export const Footer = () => {
 							<p className="mb-2 font-semibold text-slate-600 dark:text-neutral-200">Resources</p>
 							<ul className="flex flex-col gap-1 text-slate-700 dark:text-neutral-300">
 								<li>
-									<a href="#" className="hover:underline">
-										Community
+									<a href="https://www.appitnow.in/webtoapp" className="hover:underline">
+									Web to App
 									</a>
 								</li>
 								<li>
-									<a href="#" className="hover:underline">
-										Use Cases
+									<a href="https://www.appitnow.in/shopify-to-app" className="hover:underline">
+									Shopify store to App
 									</a>
 								</li>
 								<li>
-									<a href="#" className="hover:underline">
-										Source Code
+									<a href="https://www.appitnow.in/WooCommerce-store-to-App" className="hover:underline">
+									WooCommerce store to App
 									</a>
 								</li>
 								<li>
-									<a href="#" className="hover:underline">
-										Blog
+									<a href="https://www.appitnow.in/blog" className="hover:underline">
+									Blogs
 									</a>
 								</li>
 							</ul>
@@ -82,29 +82,25 @@ export const Footer = () => {
 							<p className="mb-2 font-semibold text-slate-600 dark:text-neutral-200">Product</p>
 							<ul className="flex flex-col gap-1 text-slate-700 dark:text-neutral-300">
 								<li>
-									<a href="#" className="hover:underline">
+									<a href="https://www.appitnow.in/upgrade" className="hover:underline">
 										Pricing
 									</a>
 								</li>
 								<li>
-									<a href="#" className="hover:underline">
-										Documentation
+									<a href="https://www.appitnow.in/cancellation" className="hover:underline">
+									Cancellation Policy
 									</a>
 								</li>
 								<li>
-									<a href="#" className="hover:underline">
-										Integrations
+									<a href="https://www.appitnow.in/sitemap.xml" className="hover:underline">
+									Site Map
 									</a>
 								</li>
-								<li>
-									<a href="#" className="hover:underline">
-										Support
-									</a>
-								</li>
+								
 							</ul>
 						</div>
 						<div className="col-span-1">
-							<p className="mb-2 font-semibold text-slate-600 dark:text-neutral-200">Other links</p>
+							{/* <p className="mb-2 font-semibold text-slate-600 dark:text-neutral-200">Other links</p>
 							<ul className="flex flex-col gap-1 text-slate-700 dark:text-neutral-300">
 								<li>
 									<a href="#" className="hover:underline">
@@ -126,18 +122,18 @@ export const Footer = () => {
 										About us
 									</a>
 								</li>
-							</ul>
+							</ul> */}
 						</div>
 					</div>
 					<div className="col-span-2 flex flex-col items-end gap-5 text-right text-slate-600 dark:text-neutral-300 md:text-left">
 						<SocialLinks />
-						<p>&copy; 2023 Company Inc.</p>
+						<p>&copy; AppItNow 2024.</p>
 						<p>
-							<a href="#" className="hover:underline">
+							<a href="https://www.appitnow.in/privacy-policy" className="hover:underline">
 								Privacy Policy
 							</a>{' '}
 							·{' '}
-							<a href="#" className="hover:underline">
+							<a href="https://www.appitnow.in/terms-of-service" className="hover:underline">
 								Terms
 							</a>
 						</p>
