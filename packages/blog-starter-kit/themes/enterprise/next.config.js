@@ -61,10 +61,10 @@ const getRedirectionRules = async () => {
 const config = {
 	transpilePackages: ['@starter-kit/utils'],
 	// basePath: getBasePath(),
-  assetPrefix: 'https://appitnow-blog.vercel.app',
+  // assetPrefix: 'https://appitnow-blog.vercel.app',
 
 basePath:"/blog",
-    trailingSlash: true,
+    // trailingSlash: true,
 
   
 	experimental: {
